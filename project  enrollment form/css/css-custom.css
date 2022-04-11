@@ -1,0 +1,41 @@
+/*
+blue-0069a5
+light-bg e8eaf3 
+*/
+
+
+/*color*/
+body{
+	background: #ccc;
+}
+legend {
+    border-bottom: 1px solid #0069a5;
+}
+.light-bg{
+	background: #e8eaf3;
+}
+.dark-bg{
+	background: #0069a5;
+}
+
+/*heading*/
+.heading > h1{
+	color:#fff;
+}
+
+/*content*/
+.heads > h2{
+	color: #fff;
+}
+/*astrisk*/
+span{
+	color:#e00615!important;
+}
+/*footer*/
+.footer{
+	color: #fff;
+	
+}
+.footer>a:hover{
+	color: #fff;
+}

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Admission Form</title>
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Pre Registration form for Grade XI">
+    <!--<meta property="og:type" content="Registration Form" />-->
+	<link rel="stylesheet" type="text/css" href="css/css-bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/css-style.css">
+	<link rel="stylesheet" type="text/css" href="css/css-custom.css">
+	<style type="text/css">
+		.padding-2{
+			padding-left: 2px;
+			padding-right: 2px;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container ">
+
+        
+	<section class="row" style="margin-left: 0px;margin-right: 0px;">
+		<div class="col-md-12 dark-bg" style="padding:0px;">
+		    <img src="images\logo-final-1024x289.png" class="img-responsive">
+			
+		</div>
+	</section>	
+	<!-- <section class="head dark-bg">
+		<div class="logo col-md-4">
+			<img src="./assets/img/logo.png" class="img-responsive logo-img">
+		</div>
+		<div class="col-md-8">
+			<h1>Application For Admission</h1>
+		</div>
+	</section> -->
+	<section class="personal-details light-bg">
+		<br>
+		<form class="form-horizontal" rmethod="post" >
+		    <input type="hidden" >
+			<div class="heads dark-bg"><h2>SECTION ONE: PERSONAL DATA</h2></div>
+			<fieldset>
+				<legend>Personal Details</legend>
+				<div class="form-group">
+				  	<label class="col-md-3 control-label" for="textinput">Name <span>*</span></label>  
+				  	<div class="col-md-3">
+					  <input id="textinput" name="first_name" type="text" placeholder="First Name" class="form-control input-md" value="" required>
+					</div>
+				  	<div class="col-md-3">
+					  <input id="textinput" name="middle_name" type="text" placeholder="Middle Name" class="form-control input-md" value="">
+					</div>
+				  	<div class="col-md-3">
+					  <input id="textinput" name="last_name" type="text" placeholder="Last Name" class="form-control input-md" value="" required>
+					</div>
+				</div>
+				<div class="form-group">
+				  <label class="col-md-3 control-label" for="textinput">Date Of Birth <span>*</span></label>  
+				  <div class="col-md-3">
+				  <input id="textinput" type="date" name="dob" placeholder="Date Of Birth" class="form-control input-md" value="" required>
+				  </div>
+				  <label class="col-md-3 control-label" for="gender">Gender <span>*</span></label>
+				  <div class="col-md-3"> 
+				    <label class="radio-inline" for="gender-0">
+				      <input type="radio" name="gender" id="gender-0" value="Male" required>
+				      Male
+				    </label> 
+				    <label class="radio-inline" for="gender-1">
+				      <input type="radio" name="gender" id="gender-1" value="Female">
+				      Female
+				    </label> 
+				    <label class="radio-inline" for="gender-2">
+				      <input type="radio" name="gender" id="gender-2" value="Others">
+				      Others
+				    </label>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="col-md-3 control-label" for="textinput">Father's Name <span>*</span></label>
+				  <div class="col-md-9" style="padding-left: 0px;padding-right: 0px;">
+				    <div class="col-md-4">
+					  <input id="textinput" name="father_first_name" type="text" placeholder="First Name" class="form-control input-md" value="" required>
+					</div>
+					<div class="col-md-4">
+					  <input id="textinput" name="father_middle_name" type="text" placeholder="Middle Name" class="form-control input-md" value="">
+					</div>
+					<div class="col-md-4">
+					  <input id="textinput" name="father_last_name" type="text" placeholder="Last Name" class="form-control input-md" value="">
+					</div>
+					<div class="col-md-4">
+					  <input id="textinput" name="father_profession" type="text" placeholder="Profession" class="form-control input-md" value="" required>
+					</div>
+					<div class="col-md-4">
+					  <input id="textinput" name="father_phone" type="text" placeholder="Phone Number" class="form-control input-md" value="">
+					</div>
+					<div class="col-md-4">
+					  <input id="textinput" name="father_mobile" type="text" placeholder="Mobile Number" class="form-control input-md" value="">
+					</div>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="col-md-3 control-label" for="textinput">Mother's Name <span>*</span></label>  
+				    <div class="col-md-9" style="padding-left: 0px;padding-right: 0px;">
+				    	<div class="col-md-4">
+					  		<input id="textinput" name="mother_first_name" type="text" placeholder="First Name" class="form-control input-md" value="" required>
+					  	</div>
+					  	<div class="col-md-4">
+					  		<input id="textinput" name="mother_middle_name" type="text" placeholder="Middle Name" class="form-control input-md" value="">
+					  	</div>
+					  	<div class="col-md-4">
+					  		<input id="textinput" name="mother_last_name" type="text" placeholder="Last Name" class="form-control input-md" value="">
+					  	</div>
+					  	<div class="col-md-4">
+					  		<input id="textinput" name="mother_profession" type="text" placeholder="Profession" class="form-control input-md" value="" required>
+					  	</div>
+					  	<div class="col-md-4">
+					  		<input id="textinput" name="mother_phone" type="text" placeholder="Phone Number" class="form-control input-md" value="">
+					  	</div>
+					  	<div class="col-md-4">
+						  <input id="textinput" name="mother_mobile" type="text" placeholder="Mobile Number" class="form-control input-md" value="">
+						</div>
+					</div>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Contact Details</legend>
+				<div class="form-group">
+				  <label class="col-md-3 control-label" for="textinput">Permanent Address <span>*</span></label>  
+				  <div class="col-md-9">
+				  	<input id="textinput" name="p_address" type="text" class="form-control input-md" value="" required>
+				   </div>
+				</div>
+				
+				<div class="form-group">
+				  <label class="col-md-3 control-label" for="textinput">Telephone No. </label>  
+				  <div class="col-md-3">
+				  	<input id="textinput" name="tel_no" type="text" class="form-control input-md" value="">
+				   </div>
+				   <label class="col-md-3 control-label" for="textinput">Mobile No. <span>*</span></label>  
+				  <div class="col-md-3">
+				  	<input id="textinput" name="mobile" type="text" class="form-control input-md" value="" required>
+				   </div>
+				   <label class="col-md-3 control-label" for="textinput">E-mail</label>  
+				  <div class="col-md-9">
+				  	<input id="textinput" name="email" type="text" class="form-control input-md" value="">
+				   </div>
+				</div>
+			</fieldset>
+			
+			<div class="heads dark-bg"><h2>SECTION TWO: APPLICATION</h2></div>
+			<fieldset>
+				<legend>Course Preference</legend>
+				<div class="form-group">
+				  <label class="col-md-3 control-label" for="course">Level</label>
+				  <div class="col-md-3">
+				    <select id="course" name="level" class="level form-control">
+				      <option> Choose level</option>
+				      <option value="+ 2">+ 2</option>
+				      <option value="Bachelors">Bachelors</option>
+				      <option value="Masters">Masters</option>
+				    </select>
+				  </div>
+				  <label class="col-md-3 control-label" for="course">Faculty</label>
+				  <div class="col-md-3">
+				    <select id="faculty" name="faculty" class="form-control">
+				      <option selected>choose a faculty</option>
+				      <option value="Management">Management</option>
+				      <option value="Humanities">Humanities</option>
+				      
+				    </select>
+				  </div>
+
+				  
+				  </div>
+				  </div>
+
+				  
+
+				<!-- <div class="form-group"> -->
+				  <label class="col-md-3 control-label" for="course">Timing</label>
+				  <div class="col-md-3">
+				    <select id="course" name="timing" class="form-control">
+				      <option value="Morning">Morning</option>
+				      <option value="Day">Day</option>
+				    </select>
+				  </div>
+				</div>
+			</fieldset>
+			<div class="heads dark-bg"><h2>SECTION THREE: EDUCATION DETAILS</h2></div>
+			<fieldset>
+				<div class="form-group">
+				    <div id="see" style="display: block;">
+				  	<label id="" class="col-md-3 control-label" for="textinput">SEE <span>*</span></label>  
+					<div class="col-md-9" style="padding: 0px">
+					  	<div class="col-md-3 padding-2">
+					  		<input id="see_school" name="see_school" type="text" placeholder="School" class="s form-control input-md" value="" required>
+					  	</div>
+					  	<div class="col-md-2 padding-2">
+					  		<input id="see_board" name="see_board" type="text" placeholder="Board/University" class="s form-control input-md" value="" required>
+					  	</div>
+					  	<div class="col-md-1 padding-2">
+					  		<input id="see_year" name="see_year" type="text" placeholder="Year" class="s form-control input-md" value="" required>
+					  	</div>
+					  	<div class="col-md-2 padding-2">
+					  		<input id="see_major" name="see_major" type="text" placeholder="Major Subjects" class="s form-control input-md" value="" required>
+					  	</div>
+					  	<div class="col-md-2 padding-2">
+						  <input id="see_div" name="see_div" type="text" placeholder="Grade/Division" class="s form-control input-md" value="" required>
+						</div>
+						<div class="col-md-2 padding-2">
+						  <input id="see_percent" name="see_percent" type="text" placeholder="GPA/Percentage" class="s form-control input-md" value="" required>
+						</div>
+					</div>
+					</div>
+					<div id="inter" style="display: none;">
+				  	<label id="" class="col-md-3 control-label" for="textinput">+2 <span>*</span></label>  
+					<div class="col-md-9" style="padding: 0px">
+					  	<div class="col-md-3 padding-2">
+					  		<input id="i_school" name="i_school" type="text" placeholder="College" class="i form-control input-md" value="">
+					  	</div>
+					  	<div class="col-md-2 padding-2">
+					  		<input id="i_board" name="i_board" type="text" placeholder="Board/University" class="i form-control input-md" value="">
+					  	</div>
+					  	<div class="col-md-1 padding-2">
+					  		<input id="i_year" name="i_year" type="text" placeholder="Year" class="i form-control input-md" value="">
+					  	</div>
+					  	<div class="col-md-2 padding-2">
+					  		<input id="i_major" name="i_major" type="text" placeholder="Major Subjects" class="i form-control input-md" value="">
+					  	</div>
+					  	<div class="col-md-2 padding-2">
+						  <input id="i_div" name="i_div" type="text" placeholder="Grade/Division" class="i form-control input-md" value="">
+						</div>
+						<div class="col-md-2 padding-2">
+						  <input id="i_percent" name="i_percent" type="text" placeholder="GPA/Percentage" class="i form-control input-md" value="">
+						</div>
+					</div>
+					</div>
+					<div id="bachelor" style="display: none;">
+				  	<label id="bachelor" class="col-md-3 control-label" for="textinput">Bachelors <span>*</span></label>  
+					<div class="col-md-9" style="padding: 0px">
+					  	<div class="col-md-3 padding-2">
+					  		<input id="b_school" name="b_school" type="text" placeholder="College" class="b form-control input-md" value="">
+					  	</div>
+					  	<div class="col-md-2 padding-2">
+					  		<input id="b_board" name="b_board" type="text" placeholder="Board/University" class="b form-control input-md" value="">
+					  	</div>
+					  	<div class="col-md-1 padding-2">
+					  		<input id="b_year" name="b_year" type="text" placeholder="Year" class="b form-control input-md" value="">
+					  	</div>
+					  	<div class="col-md-2 padding-2">
+					  		<input id="b_major" name="b_major" type="text" placeholder="Major Subjects" class="b form-control input-md" value="">
+					  	</div>
+					  	<div class="col-md-2 padding-2">
+						  <input id="b_div" name="b_div" type="text" placeholder="Grade/Division" class="b form-control input-md" value="">
+						</div>
+						<div class="col-md-2 padding-2">
+						  <input id="b_percent" name="b_percent" type="text" placeholder="GPA/Percentage" class="b form-control input-md" value="">
+						</div>
+					</div>
+					</div>
+					<!--<label class="col-md-3 control-label" for="textinput">Masters</label>  -->
+					<!--<div class="col-md-9" style="padding: 0px">-->
+					<!--  	<div class="col-md-3">-->
+					<!--  		<input id="textinput" name="textinput" type="text" placeholder="College" class="form-control input-md">-->
+					<!--  	</div>-->
+					<!--  	<div class="col-md-3">-->
+					<!--  		<input id="textinput" name="textinput" type="text" placeholder="Board/University" class="form-control input-md">-->
+					<!--  	</div>-->
+					<!--  	<div class="col-md-2">-->
+					<!--  		<input id="textinput" name="textinput" type="text" placeholder="Year" class="form-control input-md">-->
+					<!--  	</div>-->
+					<!--  	<div class="col-md-2">-->
+					<!--  		<input id="textinput" name="textinput" type="text" placeholder="Major Subjects" class="form-control input-md">-->
+					<!--  	</div>-->
+					<!--  	<div class="col-md-1">-->
+					<!--	  <input id="textinput" name="textinput" type="text" placeholder="Division/Grade" class="form-control input-md">-->
+					<!--	</div>-->
+					<!--	<div class="col-md-1">-->
+					<!--	  <input id="textinput" name="textinput" type="text" placeholder="Percentage/GPA" class="form-control input-md">-->
+					<!--	</div>-->
+					<!--</div>-->
+				</div>
+			</fieldset>
+			
+			<div class="heads dark-bg"><h2>SECTION FOUR: EXTRA CURRICULAR ACTIVITIES</h2></div>
+			<fieldset>
+				<div class="form-group">
+				  <label class="col-md-12 control-label" style="text-align: left;" for="activities">Please list your favorite sport, hobbies, and special interests.</label>
+				  <div class="col-md-12">                     
+				    <textarea class="form-control" id="eca" name="eca" rows="10" value=""></textarea>
+				  </div>
+				</div>
+			</fieldset>
+			<div class="heads dark-bg"><h2>SECTION FIVE:   TRANSPORTATION/HOSTEL FACILITES</h2></div>
+			<fieldset>
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="transportation">Do you require transportation facilities ? <span>*</span></label>
+				  <div class="col-md-4">
+				  <div class="radio">
+				    <label for="transportation-0">
+				      <input type="radio" name="transportation" id="transportation-0" value="Yes">
+				      Yes
+				    </label>
+					</div>
+				  <div class="radio">
+				    <label for="transportation-1">
+				      <input type="radio" name="transportation" id="transportation-1" value="No">
+				      No
+				    </label>
+					</div>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="hostel">Do you require hostel facilities ? <span>*</span></label>
+				  <div class="col-md-4">
+				  <div class="radio">
+				    <label for="hostel-0">
+				      <input type="radio" name="hostel" id="hostel-0" value="Yes">
+				      Yes
+				    </label>
+					</div>
+				  <div class="radio">
+				    <label for="hostel-1">
+				      <input type="radio" name="hostel" id="hostel-1" value="No">
+				      No
+				    </label>
+					</div>
+				  </div>
+				</div>
+			</fieldset>
+			
+			
+			
+			
+
+			
+			
+			
+			
+			<div class="heads dark-bg"><h2>SECTION SIX: ADDITIONAL INFORMATION</h2></div>
+			<fieldset>
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="marksheet">A copy of Marksheet / Gradesheet</label>
+				  <div class="col-md-4">
+				    <input id="marksheet" name="marksheet" class="input-file" type="file">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="character">A copy of Character Certificate</label>
+				  <div class="col-md-4">
+				    <input id="character" name="character_cer" class="input-file" type="file">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="col-md-4 control-label" for="photo">PP size photo</label>
+				  <div class="col-md-4">
+				    <input id="photo" name="image" class="input-file" type="file">
+				  </div>
+				</div>
+				<p>Documents not uploaded here must be submitted to college/school before receiving admit card</p>
+			</fieldset>
+			
+				<!--<p>Documents not uploaded here must be submitted to college/school before receiving admit card</p>-->
+			</fieldset>
+			<fieldset>
+			    <p>I/we hereby certity that the information provided in this application complete and correct. I/we agree that  THE Himalayan College/School may, if necessary, verify details of the educational qualification.</p>
+				<div class="form-group">
+				  <div class="col-md-12">
+				  <div class="checkbox">
+				    <label for="terms-0">
+				      <input type="checkbox" name="terms" id="terms-0" value="1" required>I accept above terms and conditions.
+				    </label>
+					</div>
+				  </div>
+				</div>
+			</fieldset>
+			<fieldset>
+				<!-- <div class="form-group">
+				  <label class="col-md-12 control-label" style="text-align: center;" for="marksheet">Captcha</label>
+				</div> -->
+				<div class="form-group">
+				  <div class="col-md-12 text-center">
+				    <button id="singlebutton" name="singlebutton" type="submit" class="btn btn-primary">Submit</button>
+				  </div>
+				</div>
+			</fieldset>
+		</form>
+	</section>
+	<section class="head dark-bg">
+		<div class="heading"><p class="footer">Developed with Love by<a href="https:www.//github.com/Ali4tr">ALISH KARKI</a></p></div>
+	</section>
+	</div>
+	<script src="js/1.12.4-jquery.min.js"></script>
+	<script src="js/js-bootstrap.min.js"></script>
+<script>
+	document.getElementById('course').addEventListener('change',function(){
+		document.getElementById("faculty").selectedIndex = "0";
+		if (this.value == '+ 2') {
+			document.getElementById('faculty').style.display='block';
+
+			document.getElementById('faculty').addEventListener('change', function () {
+		    	if (this.value == 'Science') {
+
+			        document.getElementById('subject1').style.display = 'block';
+			        document.getElementById('subject2').style.display = 'none';
+			        document.getElementById('subject3').style.display = 'none';
+			        document.getElementById('subject4').style.display = 'none';
+			        document.getElementById('subject5').style.display = 'none';
+			        document.getElementById('subject6').style.display = 'none';
+			        document.getElementById('other').style.display = 'none';
+
+		    	} else if (this.value == 'Management') {
+
+			        document.getElementById('subject2').style.display = 'block';
+			        document.getElementById('subject1').style.display = 'none';
+			        document.getElementById('subject3').style.display = 'none';
+			        document.getElementById('subject4').style.display = 'none';
+			        document.getElementById('subject5').style.display = 'none';
+			        document.getElementById('subject6').style.display = 'none';
+			        document.getElementById('other').style.display = 'none';
+
+		    	} else if (this.value == 'Humanities') {
+
+			        document.getElementById('subject1').style.display = 'none';
+			        document.getElementById('subject3').style.display = 'block';
+			        document.getElementById('subject2').style.display = 'none';
+			        document.getElementById('subject4').style.display = 'none';
+			        document.getElementById('subject5').style.display = 'none';
+			        document.getElementById('subject6').style.display = 'none';
+			        document.getElementById('other').style.display = 'none';
+		    	} 
+		    	else{
+		    		document.getElementById('subject1').style.display = 'none';
+			        document.getElementById('subject2').style.display = 'none';
+			        document.getElementById('subject3').style.display = 'none';
+			        document.getElementById('subject4').style.display = 'none';
+			        document.getElementById('subject5').style.display = 'none';
+			        document.getElementById('subject6').style.display = 'none';
+			        document.getElementById('other').style.display = 'block';
+			        document.getElementById("other").innerHTML = "Choose a Faculty";
+		    	}
+		    });
+		}
+		else if (this.value == 'Bachelors') {
+			document.getElementById('faculty').style.display='block';
+			 // document.getElementById('faculty').find('option:contains(science)').remove();
+			document.getElementById('faculty').addEventListener('change', function () {
+		    	if (this.value == 'Management') {
+
+			        document.getElementById('subject1').style.display = 'none';
+			        document.getElementById('subject2').style.display = 'none';
+			        document.getElementById('subject3').style.display = 'none';
+			        document.getElementById('subject4').style.display = 'block';
+			        document.getElementById('subject5').style.display = 'none';
+			        document.getElementById('subject6').style.display = 'none';
+			        document.getElementById('other').style.display = 'none';
+
+		    	} else if (this.value == 'Humanities') {
+
+			        document.getElementById('subject2').style.display = 'none';
+			        document.getElementById('subject1').style.display = 'none';
+			        document.getElementById('subject3').style.display = 'none';
+			        document.getElementById('subject4').style.display = 'none';
+			        document.getElementById('subject5').style.display = 'block';
+			        document.getElementById('subject6').style.display = 'none';
+			        document.getElementById('other').style.display = 'none';
+
+		    	} else{
+		    		document.getElementById('subject1').style.display = 'none';
+			        document.getElementById('subject2').style.display = 'none';
+			        document.getElementById('subject3').style.display = 'none';
+			        document.getElementById('subject4').style.display = 'none';
+			        document.getElementById('subject5').style.display = 'none';
+			        document.getElementById('subject6').style.display = 'none';
+			        document.getElementById('other').style.display = 'block';
+			        document.getElementById("other").innerHTML = "No Subject in this faculty";
+		    	}
+		    });
+		}
+		else if (this.value == 'Masters') {
+			document.getElementById('faculty').style.display='block';
+			document.getElementById('faculty').addEventListener('change', function () {
+		    	if (this.value == 'Management') {
+
+			        document.getElementById('subject1').style.display = 'none';
+			        document.getElementById('subject2').style.display = 'none';
+			        document.getElementById('subject3').style.display = 'none';
+			        document.getElementById('subject4').style.display = 'none';
+			        document.getElementById('subject5').style.display = 'none';
+			        document.getElementById('subject6').style.display = 'block';
+			        document.getElementById('other').style.display = 'none';
+
+		    	} else{
+		    		document.getElementById('subject1').style.display = 'none';
+			        document.getElementById('subject2').style.display = 'none';
+			        document.getElementById('subject3').style.display = 'none';
+			        document.getElementById('subject4').style.display = 'none';
+			        document.getElementById('subject6').style.display = 'none';
+			        document.getElementById('subject5').style.display = 'none';
+			        document.getElementById('other').style.display = 'block';
+			        document.getElementById("other").innerHTML = "No Subject in this faculty";
+		    	}
+		    });
+		}
+
+	});
+
+	    
+</script>
+<script>
+        $(document).ready(function(){
+            $("select.level").change(function(){
+                var selectedLevel = $(this).children("option:selected").val();
+                if(selectedLevel == 'Masters'){
+                    $(".b").prop('required',true);
+                    $(".i").prop('required',true);
+                    $(".s").prop('required',true);
+                    document.getElementById('inter').style.display = 'block';
+                    document.getElementById('bachelor').style.display = 'block';
+                    document.getElementById('see').style.display = 'block';
+                }
+                else if(selectedLevel == 'Bachelors'){
+                    $(".b").prop('required',false);
+                    $(".i").prop('required',true);
+                    $(".s").prop('required',true);
+                    document.getElementById('inter').style.display = 'block';
+                    document.getElementById('bachelor').style.display = 'none';
+                    document.getElementById('see').style.display = 'block';
+                }
+                else if(selectedLevel == '+ 2'){
+                    $(".b").prop('required',false);
+                    $(".i").prop('required',false);
+                    $(".s").prop('required',true);
+                    document.getElementById('inter').style.display = 'none';
+                    document.getElementById('bachelor').style.display = 'none';
+                    document.getElementById('see').style.display = 'block';
+                }
+                else{
+                    document.getElementById('inter').style.display = 'none';
+                    document.getElementById('bachelor').style.display = 'none';  
+                    document.getElementById('see').style.display = 'block'; 
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
